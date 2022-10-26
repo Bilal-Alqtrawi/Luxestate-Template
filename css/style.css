@@ -464,6 +464,7 @@ header .menu {
 }
 .appartments .cards .card img {
   width: 100%;
+  max-width: 100%;
   display: block;
   position: relative;
   z-index: 1;
@@ -783,7 +784,7 @@ header .menu {
 }
 .agents .boxes {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
   margin-top: 60px;
   gap: 40px;
 }
@@ -793,6 +794,7 @@ header .menu {
 }
 .agents .boxes .box img {
   width: 100%;
+  max-width: 100%;
 }
 .agents .boxes .box .agent-info {
   background-color: white;
